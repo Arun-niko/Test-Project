@@ -1,5 +1,3 @@
-groovy id="9ikutx"
-
 pipeline {
     agent any
 
