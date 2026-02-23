@@ -20,17 +20,4 @@ pipeline {
             }
         }
     }
-
-    // The Post section runs after all stages are finished
-    post {
-        always {
-            echo "I will always run, no matter what!"
-        }
-        success {
-            echo "The build was a success! Time to celebrate."
-        }
-        failure {
-            echo "The build failed. Check the logs above to see why."
-        }
-    }
 }
